@@ -1,0 +1,71 @@
+{
+    "id": "da1d7bad-3f2c-4a24-8357-7b643a15710f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Home",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "ede1265a-7ae8-4213-83c5-03adbaa934ed",
+            "label": "homeBg",
+            "texture": {
+                "key": "homeBg"
+            },
+            "x": 540,
+            "y": 960
+        },
+        {
+            "type": "Text",
+            "id": "081d6a15-29ee-4727-a2fd-1dddc2382772",
+            "label": "text_1",
+            "x": 540,
+            "y": 900,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Test your typing skills \nagainst the clock!",
+            "align": "center",
+            "fontFamily": "Arial",
+            "fontSize": "100px",
+            "stroke": "#000000",
+            "strokeThickness": 3
+        },
+        {
+            "type": "Text",
+            "id": "f73995c2-628a-4405-84aa-701845385751",
+            "label": "text_logo",
+            "x": 540,
+            "y": 437,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "FAST TYPER",
+            "fontFamily": "Arial",
+            "fontSize": "150px",
+            "fontStyle": "bold",
+            "stroke": "#000000",
+            "strokeThickness": 5
+        },
+        {
+            "type": "Image",
+            "id": "626e063e-5cc1-4666-9bf8-28c641b62da0",
+            "label": "goBtn",
+            "scope": "CLASS",
+            "texture": {
+                "key": "goBtn"
+            },
+            "x": 540,
+            "y": 1384
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
